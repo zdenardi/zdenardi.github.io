@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.de0bfe45.chunk.css",
+    "main.js": "/static/js/main.ac1bb2cb.chunk.js",
+    "main.js.map": "/static/js/main.ac1bb2cb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f34813ad.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f34813ad.js.map",
+    "static/css/2.95f25948.chunk.css": "/static/css/2.95f25948.chunk.css",
+    "static/js/2.b470f88e.chunk.js": "/static/js/2.b470f88e.chunk.js",
+    "static/js/2.b470f88e.chunk.js.map": "/static/js/2.b470f88e.chunk.js.map",
+    "static/js/3.7bde7293.chunk.js": "/static/js/3.7bde7293.chunk.js",
+    "static/js/3.7bde7293.chunk.js.map": "/static/js/3.7bde7293.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.95f25948.chunk.css.map": "/static/css/2.95f25948.chunk.css.map",
+    "static/css/main.de0bfe45.chunk.css.map": "/static/css/main.de0bfe45.chunk.css.map",
+    "static/js/2.b470f88e.chunk.js.LICENSE.txt": "/static/js/2.b470f88e.chunk.js.LICENSE.txt",
+    "static/media/Fourthwall.19408035.png": "/static/media/Fourthwall.19408035.png",
+    "static/media/App.css": "/static/media/backgroundPattern2.21b31688.png",
+    "static/media/index.css": "/static/media/commodore_rounded_v1.2-webfont.53ccfd57.woff2",
+    "static/media/githubthumb.14d12b2f.png": "/static/media/githubthumb.14d12b2f.png",
+    "static/media/zdenardiThumb.0083f0c1.png": "/static/media/zdenardiThumb.0083f0c1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f34813ad.js",
+    "static/css/2.95f25948.chunk.css",
+    "static/js/2.b470f88e.chunk.js",
+    "static/css/main.de0bfe45.chunk.css",
+    "static/js/main.ac1bb2cb.chunk.js"
+  ]
+}
