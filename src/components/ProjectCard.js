@@ -3,7 +3,7 @@ import {Card,Badge} from 'react-bootstrap/'
 const ProjectCard=({topic})=>{
     return(
         <>
-        <Card className="class-info" style={{margin:'0.5rem', width: '15rem' }}>
+        <Card className="class-info" style={{margin:'0.5rem', width: '15rem',minHeight:"200px"}}>
             <Card.Body>
                 <Card.Title>
                         <h5>{topic.title}</h5>

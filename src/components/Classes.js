@@ -46,7 +46,7 @@ const Classes = ()=>{
             <h1 class="divider">Classes</h1>
                 <div className="row">
                        {classes.map(topic =>(
-                           <div className="col">
+                           <div className="col cardcontainer">
                            <ProjectCard topic={topic}/>
                            </div>
                        ))}                   

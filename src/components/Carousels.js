@@ -61,7 +61,7 @@ const Carousels = ({projects}) =>{
             <Button
             onClick={()=> window.open('https://github.com/zdenardi')}>Check it out</Button>
             <h3>See more at my github</h3>
-            <p>React Frontend, Node/Express backend connected to MongoDB</p>
+            <p>Projects with React,Ruby on Rails, PHP and more</p>
             </div>
             </Carousel.Caption>
         </Carousel.Item>
