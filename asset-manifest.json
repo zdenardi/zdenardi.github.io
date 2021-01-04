@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f4aedbd.chunk.css",
+    "main.css": "/static/css/main.a2754867.chunk.css",
     "main.js": "/static/js/main.06d28e35.chunk.js",
     "main.js.map": "/static/js/main.06d28e35.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3dcbc008.js",
@@ -12,7 +12,7 @@
     "static/js/3.41f3281c.chunk.js.map": "/static/js/3.41f3281c.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.95f25948.chunk.css.map": "/static/css/2.95f25948.chunk.css.map",
-    "static/css/main.9f4aedbd.chunk.css.map": "/static/css/main.9f4aedbd.chunk.css.map",
+    "static/css/main.a2754867.chunk.css.map": "/static/css/main.a2754867.chunk.css.map",
     "static/js/2.b9a028e8.chunk.js.LICENSE.txt": "/static/js/2.b9a028e8.chunk.js.LICENSE.txt",
     "static/media/Fourthwall.19408035.png": "/static/media/Fourthwall.19408035.png",
     "static/media/App.css": "/static/media/backgroundPattern2.21b31688.png",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.3dcbc008.js",
     "static/css/2.95f25948.chunk.css",
     "static/js/2.b9a028e8.chunk.js",
-    "static/css/main.9f4aedbd.chunk.css",
+    "static/css/main.a2754867.chunk.css",
     "static/js/main.06d28e35.chunk.js"
   ]
 }
