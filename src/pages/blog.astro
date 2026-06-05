@@ -1,16 +1,21 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import GlassHeader from "@/components/GlassHeader";
-
 import Footer from "@/components/Footer";
+import BlogPost from "@/components/Blogpost";
+
+const allPosts = Object.values(import.meta.glob('./posts/*.md',{eager:true}))
 ---
 
 <Layout>
   <GlassHeader client:only="react" />
-  <main class="min-h-screen">
-    <body>
-        
-    </body>
+     <main class="min-h-screen max-w-3xl mx-auto py-10">
+    <h2 class="text-3xl font-bold mb-6">Blog Posts</h2>
+    <ul class="space-y-2 list-disc">
+        {allPosts.map((post: any) => (
+           <BlogPost title={post.frontmatter.title} url={post.url}/> 
+        ))}
+    </ul>
   </main>
   <Footer client:only="react" />
 </Layout>

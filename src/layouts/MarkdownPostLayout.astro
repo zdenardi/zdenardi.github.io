@@ -11,6 +11,18 @@ const { frontmatter } = Astro.props;
         {/* Display Title */}
         <header class="text-3xl font-bold mb-8 text-center md:text-left underline">{frontmatter.title || "Untitled Post"}</header>
 
+        {frontmatter.bannerImg && (
+            <figure class="w-full mb-10 overflow-hidden h-auto">
+                <img
+                    src={frontmatter.bannerImg}
+                    alt={`Banner image for ${frontmatter.title || 'this post'}`}
+                    class="w-full object-cover transition duration-300 hover:opacity-90"
+                />
+                <!-- Optional Caption -->
+                {/* <figcaption class="text-center text-sm italic mt-2 text-gray-500">A featured visual for the post.</figcaption> */}
+            </figure>
+        )}
+
         {/* Metadata below title (optional grouping) */}
         <p class="text-sm text-gray-500 mb-3">Published on {frontmatter.pubDate?.toString().slice(0, 10)}</p>
         <div class="mb-4">
@@ -24,5 +36,4 @@ const { frontmatter } = Astro.props;
         </div>
     </main>
     <Footer client:only="react" />
-
 </Layout>
