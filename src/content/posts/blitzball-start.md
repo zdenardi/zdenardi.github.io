@@ -1,10 +1,11 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
+slug: 'blzballpico8'
 title: 'The First of Many Posts About Pico8 Development'
 pubDate: 2025-06-05
 description: 'Breakdown of creating a game in a the fantasy console Pico8'
 author: 'Zach De Nardi'
-tags: ["pico8","software development",]
+tags: ["pico8", "software development"]
 bannerImg: /src/assets/pico8-banner.jpg
 
 
