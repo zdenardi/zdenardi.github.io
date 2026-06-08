@@ -7,6 +7,7 @@ import SkillsSection from "@/components/SkillsSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import EducationSection from "@/components/EducationSection";
 import Footer from "@/components/Footer";
+import BlogSection from "@/components/BlogSection.astro";
 ---
 
 <Layout>
@@ -15,6 +16,7 @@ import Footer from "@/components/Footer";
     <HeroSection client:only="react" />
     <ExperienceSection client:only="react" />
     <SkillsSection client:only="react" />
+    <BlogSection/>
     <ProjectsSection client:only="react" />
     <EducationSection client:only="react" />
   </main>

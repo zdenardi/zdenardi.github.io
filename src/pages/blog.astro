@@ -1,0 +1,30 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import GlassHeader from "@/components/GlassHeader";
+import Footer from "@/components/Footer";
+import BlogPostCard from "@/components/BlogPostCard";
+
+import { getCollection,getEntry } from "astro:content";
+
+const allPosts = await getCollection('post')
+
+
+---
+
+<Layout>
+  <GlassHeader client:only="react" />
+    <main class="min-h-screen max-w-3xl mx-auto py-10">
+   
+        
+    <h2 class="text-3xl font-bold mb-6">Blog Posts</h2>
+    <div class="container max-w-4xl mx-auto px-6 md:px-4">
+   
+    </div>
+    <div class="grid grid-cols-2 gap-4">
+      {allPosts.map((post) => (
+        <BlogPostCard post={post} />
+      ))}
+      </div>
+  </main>
+  <Footer client:only="react" />
+</Layout>

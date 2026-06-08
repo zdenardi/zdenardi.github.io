@@ -1,0 +1,39 @@
+---
+import Footer from "@/components/Footer";
+import Layout from "./Layout.astro";
+import GlassHeader from "@/components/GlassHeader";
+const {  post } = Astro.props;
+
+---
+<Layout>
+    <GlassHeader client:only="react" />
+    <main class="min-h-screen max-w-3xl mx-auto py-10">
+        {/* Display Title */}
+        <header class="text-3xl font-bold mb-8 text-center md:text-left underline">{post.title || "Untitled Post"}</header>
+
+        {post.bannerImg && (
+            <figure class="w-full mb-10 overflow-hidden h-auto">
+                <img
+                    src={post.bannerImg}
+                    alt={`Banner image for ${post.title || 'this post'}`}
+                    class="w-full object-cover transition duration-300 hover:opacity-90"
+                />
+                <!-- Optional Caption -->
+                {/* <figcaption class="text-center text-sm italic mt-2 text-gray-500">A featured visual for the post.</figcaption> */}
+            </figure>
+        )}
+
+        {/* Metadata below title (optional grouping) */}
+        <p class="text-sm text-gray-500 mb-3">Published on {post.pubDate?.toString().slice(0, 10)}</p>
+        <div class="mb-4">
+            <em class="block">{post.description}</em>
+            <span class="text-sm text-gray-600 block mt-1">Written by: {post.author}</span>
+        </div>
+
+        <!-- Slot will render the content from MarkdownPostLayout.astro -->
+        <div class="prose lg:prose-lg dark:prose-invert max-w-none">
+            <slot />
+        </div>
+    </main>
+    <Footer client:only="react" />
+</Layout>
