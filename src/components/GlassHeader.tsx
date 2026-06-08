@@ -18,12 +18,12 @@ export default function GlassHeader() {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          ✨ {personalInfo.name}
+          {personalInfo.name}
         </motion.a>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
-          {["experience", "skills", "projects", "education"].map(
+          {["experience", "skills", "projects", "education", "posts"].map(
             (item, index) => (
               <motion.a
                 key={item}
@@ -38,6 +38,7 @@ export default function GlassHeader() {
                 {item === "skills" && "🛠️ "}
                 {item === "projects" && "🚀 "}
                 {item === "education" && "🎓 "}
+                {item === "posts" && "📖 "}
                 {item.charAt(0).toUpperCase() + item.slice(1)}
               </motion.a>
             ),
