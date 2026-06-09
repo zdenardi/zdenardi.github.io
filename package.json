@@ -2,6 +2,7 @@
   "name": "my-portfolio",
   "type": "module",
   "version": "0.0.1",
+  "packageManager": "pnpm@10.4.1",
   "description": "Modern portfolio template with animations and glassmorphism effects",
   "author": "Rishikesh S",
   "license": "MIT",
@@ -33,11 +34,5 @@
     "tailwind-merge": "^3.0.2",
     "tailwindcss": "^4.0.14",
     "tw-animate-css": "^1.2.4"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild",
-      "sharp"
-    ]
   }
 }
