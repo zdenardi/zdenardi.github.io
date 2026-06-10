@@ -34,9 +34,9 @@ export default function BlogPostCard({ post }: BlogPostProps) {
             {post.data.title}
           </CardTitle>
         </CardHeader>
-        <CardContent className="flex-grow">
+        <CardContent className="grow">
           {post.data.bannerImg && (
-            <figure className="w-full mb-10 overflow-hidden h-25% pt-3">
+            <figure className="w-full mb-10 overflow-hidden h-25 pt-3">
               <img
                 src={post.data.bannerImg}
                 alt={`Banner image for ${post.data.title || "this post"}`}
