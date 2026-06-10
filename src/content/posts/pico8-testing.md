@@ -6,7 +6,7 @@ pubDate: 2025-06-8
 description: 'How I added unit testing into my Pico8 workflow'
 author: 'Zach De Nardi'
 tags: ["pico8", "software development","unit-testing"]
-bannerImg: /src/assets/unit-test-banner.png
+bannerImg: /images/unit-test-banner.png
 
 
 ---
@@ -133,6 +133,6 @@ end
 Personally, I think this is easier to read, and looks better in terminal with the added bonus of being able to be saved to a textfile on every run. 
 
 
-![Terminal Screenshot](/src/assets/screenshot_pico_tests.png)
+![Terminal Screenshot](../../assets/screenshot_pico_tests.png)
 ## Whats next? 
 I'm hoping to be able to leverage all of this into a GH action, and have passable tests in a CI type of scenario. Might also try to make it a VS extension. Thought it would be a fun side project. Also considering breaking this out into it's own submodule and sharing it on Github. I'll make sure to link it here if I do that.

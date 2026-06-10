@@ -6,7 +6,7 @@ pubDate: 2025-06-05
 description: 'Breakdown of creating a game in a the fantasy console Pico8'
 author: 'Zach De Nardi'
 tags: ["pico8", "software development"]
-bannerImg: /src/assets/pico8-banner.jpg
+bannerImg: /images/pico8-banner.jpg
 
 
 ---
@@ -44,7 +44,7 @@ There is more to the rougelite elements that I'm interested in...I'm still mulli
 
 ## What I have so far
 
-![Blitzball Screenshot](/src/assets/blitzball_screen.png)
+![Blitzball Screenshot](../../assets/blitzball_screen.png)
 
 - Main rules
 - NPC pitcher that throws randomly in towards the zone
