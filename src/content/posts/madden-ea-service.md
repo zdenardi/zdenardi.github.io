@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-slug: 'madden-intro'
+slug: 'madden-ea-service'
 title: 'Making requests to the hidden Madden API'
 pubDate: 2025-07-01
 description: 'Why use an app when you can reverse engineer your own requests?'
@@ -46,7 +46,7 @@ The reason I want to do this other than being a really cool side project is that
 Really, the features are endless, and being able to update without intervention is a huge win.
 
 ## How the EA Service works
-Thank god for a guy named Snallabot who figured out how EA authenticates to make this a little easier, but here is a quick run down. It's a little convoluted, but I'm guessing that has to do with the sheer size of EA.
+Thank god for a guy named [Snallabot](https://github.com/snallabot/snallabot-service/tree/main) who figured out how EA authenticates to make this a little easier, but here is a quick run down. It's a little convoluted, but I'm guessing that has to do with the sheer size of EA.
 
 At a high level, EA's authentication is a multi-step process:
 
