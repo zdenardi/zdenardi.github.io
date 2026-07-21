@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-slug: 'madden-intro'
+slug: 'madden-ea-service'
 title: 'Making requests to the hidden Madden API'
 pubDate: 2025-07-01
 description: 'Why use an app when you can reverse engineer your own requests?'
